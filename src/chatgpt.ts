@@ -38,7 +38,7 @@ export class ChatGPTBot {
   chatgptTriggerKeyword: string = Config.chatgptTriggerKeyword;
 
   // ChatGPT error response
-  chatgptErrorMessage: string = "🤖️：ChatGPT摆烂了，请稍后再试～";
+  chatgptErrorMessage: string = "🤖️：我tm摆烂了，一会再问吧!";
 
   // ChatGPT model configuration
   // please refer to the OpenAI API doc: https://beta.openai.com/docs/api-reference/introduction
@@ -46,7 +46,7 @@ export class ChatGPTBot {
     // this model field is required
     model: "gpt-4o",
     // add your ChatGPT model parameters below
-    temperature: 0.8,
+    temperature: 0.5,
     // max_tokens: 2000,
   };
 
